@@ -24,6 +24,7 @@ public class BJ9046 {
 					index = j;
 				}
 			}
+			
 			for (int j = 0; j < alpha.length; j++) {
 				if(max == alpha[j] && j != index) {
 					System.out.println("?");
